@@ -158,3 +158,31 @@ ul li a{
 .box6{
     grid-area: six;
 }
+footer{
+    text-align: left;
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    background-color: rgb(190, 219, 218);
+    padding: 20px;
+    border-radius: 10px;
+}
+footer form{
+    padding: 20px;
+}
+footer form input,
+footer form textarea{
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.footer-icons{
+    color: turquoise;
+    font-size: 24px;
+}

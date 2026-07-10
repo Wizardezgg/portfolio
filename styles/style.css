@@ -3,15 +3,36 @@
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 /* common button */
 .commonbtn{
     background-color: turquoise;
     padding: 10px 20px;
     border-radius: 12px;
     border: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 24px;
+    cursor: pointer;
+}
+.outlinebtn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid turquoise;
+    color: turquoise;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+.hero-left-btn{
+    margin-top: 12px;
+}
+.container{
+max-width: 1200px;
+    margin: auto;
 }
 .logo {
     font-weight: bold;
@@ -23,9 +44,7 @@
 nav{
     /* background-color: gray; */
     display: flex; 
-    justify-content: space-between; 
-    max-width: 1200px;
-    margin: auto;
+    justify-content: space-between;
     padding: 12px 0;
 }
 ul {
@@ -37,4 +56,22 @@ ul {
 }
 ul li a{
     text-decoration: none;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+.hero-parent-background{
+    background-color: rgb(201, 228, 226);
+}
+.hero-left h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.hero-left-p-1{
+    font-size: 28px;
+    font-weight: 600;
 }

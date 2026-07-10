@@ -65,7 +65,7 @@ ul li a{
     padding: 12px 0;
 }
 .hero-parent-background{
-    background-color: rgb(201, 228, 226);
+    background-color: rgb(190, 219, 218);
 }
 .hero-left h2{
     font-size: 36px;
@@ -74,4 +74,24 @@ ul li a{
 .hero-left-p-1{
     font-size: 28px;
     font-weight: 600;
+}
+.about-parent{
+    background-color: rgb(190, 219, 218);
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 80px;
+    text-align: center;
+}
+.about-parent p{
+   margin: 10px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;   
+}
+.about-parent .box{
+    background-color: rgb(173, 224, 223);
+    padding: 10px;
+    border-radius: 10px;
 }
